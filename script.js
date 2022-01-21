@@ -9,6 +9,13 @@ const btnCompany = document.querySelector(".btn-company");
 const formContainer = document.querySelector(".form-container");
 const regUser = document.querySelector(".reg-user");
 const regCompany = document.querySelector(".reg-company");
+const industry = document.querySelector("#industry");
+const industryOther = document.querySelector(".industry-other");
+
+industry.addEventListener("change", () => {
+  if (industry.value === "other") industryOther.classList.remove("hidden");
+  else industryOther.classList.add("hidden");
+});
 
 // window.onresize = () => location.reload();
 // formContainer.style.height = regUser.offsetHeight + "px";
