@@ -178,6 +178,7 @@ select {
   [type="text"],
   [type="email"],
   [type="password"],
+  select,
   .submit-wrap {
     width: 100%;
   }
