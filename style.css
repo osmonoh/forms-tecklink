@@ -53,18 +53,6 @@ body {
   background: rgba(38, 169, 225, 0.118);
 }
 
-.logo {
-  position: absolute;
-  top: 4.8rem;
-  left: 6.8rem;
-  /* margin: 0 1.2rem 0 auto; */
-  /* padding: 1.2rem; */
-}
-
-.logo img {
-  /* transform: scale(0.7); */
-}
-
 .form-container {
   position: relative;
   width: 660px;
@@ -94,9 +82,15 @@ body {
   opacity: 1;
 }
 
-.form-heading {
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 6rem;
-  text-align: center;
+}
+
+.form-heading {
+  width: 32rem;
   font-weight: 400;
 }
 
