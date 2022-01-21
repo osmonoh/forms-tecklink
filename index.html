@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-centering">
+      <div class="container">
+        <div class="btn-container">
+          <div class="btn-tab btn-user btn-active">User Registration</div>
+          <div class="btn-tab btn-company">Company Registration</div>
+        </div>
+        <div class="form-container">
+          <!-- USER REGISTRATION  -->
+          <div class="reg reg-user is-active">
+            <h2 class="form-heading">User Registration</h2>
+            <form action="#" class="form-reg">
+              <!-- first name -->
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  type="text"
+                  placeholder="Enter your first name"
+                />
+              </div>
+              <!-- middle name  -->
+              <div class="form-group">
+                <label for="middle-name">Middle Name</label>
+                <input
+                  id="middle-name"
+                  type="text"
+                  placeholder="Enter your middle name"
+                />
+              </div>
+              <!-- last name  -->
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input
+                  id="last-name"
+                  type="text"
+                  placeholder="Enter your last name"
+                />
+              </div>
+              <!-- email  -->
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="you@example.com" />
+              </div>
+              <!-- phone  -->
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  id="phone"
+                  type="text"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+              <!-- company name  -->
+              <div class="form-group">
+                <label for="user-company-name">Company Name</label>
+                <input
+                  id="user-company-name"
+                  type="text"
+                  placeholder="Enter your company's name"
+                />
+              </div>
+              <!-- country  -->
+              <div class="form-group">
+                <label for="country">Country</label>
+                <input
+                  id="country"
+                  type="text"
+                  placeholder="Enter your country"
+                />
+              </div>
+              <!-- state  -->
+              <div class="form-group">
+                <label for="state">State</label>
+                <input id="state" type="text" placeholder="Enter your state" />
+              </div>
+              <!-- password  -->
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- repeat password  -->
+              <div class="form-group">
+                <label for="repeat-password">Repeat Password</label>
+                <input
+                  id="repeat-password"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- submit button  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <div class="submit-wrap">
+                  <input type="submit" value="Register" />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- COMPANY REGISTRATION  -->
+          <div class="reg reg-company">
+            <h2 class="form-heading">Company Registration</h2>
+            <form action="#" class="form-reg">
+              <!-- company name -->
+              <div class="form-group">
+                <label for="company-name">Company Name</label>
+                <input
+                  id="company-name"
+                  type="text"
+                  placeholder="Enter your company's name"
+                />
+              </div>
+              <!-- industry/sector  -->
+              <div class="form-group">
+                <label for="industry">Industry/Sector</label>
+                <input
+                  id="industry"
+                  type="text"
+                  placeholder="Enter your company's industry/sector"
+                />
+              </div>
+              <!-- email-company  -->
+              <div class="form-group">
+                <label for="email-company">Email Address</label>
+                <input
+                  id="email-company"
+                  type="email"
+                  placeholder="company@example.com"
+                />
+              </div>
+              <!-- phone-company  -->
+              <div class="form-group">
+                <label for="phone-company">Phone Number</label>
+                <input
+                  id="phone-company"
+                  type="text"
+                  placeholder="Enter company's phone number"
+                />
+              </div>
+              <!-- country-company  -->
+              <div class="form-group">
+                <label for="country-company">Country</label>
+                <input
+                  id="country-company"
+                  type="text"
+                  placeholder="Enter your country"
+                />
+              </div>
+              <!-- state-company  -->
+              <div class="form-group">
+                <label for="state-company">State</label>
+                <input
+                  id="state-company"
+                  type="text"
+                  placeholder="Enter your state"
+                />
+              </div>
+              <!-- password-company  -->
+              <div class="form-group">
+                <label for="password-company">Password</label>
+                <input
+                  id="password-company"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- repeat password-company  -->
+              <div class="form-group">
+                <label for="repeat-password-company">Repeat Password</label>
+                <input
+                  id="repeat-password-company"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- submit button  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <div class="submit-wrap">
+                  <input type="submit" value="Register" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
