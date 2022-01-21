@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="page-centering">
+      <div class="container">
+        <div class="btn-container">
+          <div class="btn-tab btn-user btn-active">User Login</div>
+          <div class="btn-tab btn-company">Company Login</div>
+        </div>
+        <div class="form-container login-forms">
+          <!-- USER REGISTRATION  -->
+          <div class="reg reg-user is-active">
+            <div class="form-header">
+              <div class="logo">
+                <img src="./img/tecklink_logo.webp" alt="logo" />
+              </div>
+              <h2 class="form-heading">User Login</h2>
+            </div>
+
+            <form action="#" class="form-log">
+              <!-- email  -->
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="you@example.com" />
+              </div>
+              <!-- password  -->
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- link to register  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <p class="small-letters">
+                  If you don't have an account yet,
+                  <a href="./index.html">register here</a> please.
+                </p>
+              </div>
+              <!-- submit button  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <div class="submit-wrap">
+                  <input type="submit" value="Login" />
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- COMPANY LOGIN  -->
+          <div class="reg reg-company">
+            <div class="form-header">
+              <div class="logo">
+                <img src="./img/tecklink_logo.webp" alt="logo" />
+              </div>
+              <h2 class="form-heading">Company Login</h2>
+            </div>
+
+            <form action="#" class="form-log">
+              <!-- email-company  -->
+              <div class="form-group">
+                <label for="email-company">Email Address</label>
+                <input
+                  id="email-company"
+                  type="email"
+                  placeholder="example@company.com"
+                />
+              </div>
+              <!-- password-company  -->
+              <div class="form-group">
+                <label for="password-company">Password</label>
+                <input
+                  id="password-company"
+                  type="password"
+                  placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+                />
+              </div>
+              <!-- link to register  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <p class="small-letters">
+                  If you don't have an account yet,
+                  <a href="./index.html">register here</a> please.
+                </p>
+              </div>
+
+              <!-- submit button  -->
+              <div class="form-group">
+                <div class="space"></div>
+                <div class="submit-wrap">
+                  <input type="submit" value="Register" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/login.js"></script>
+  </body>
+</html>
