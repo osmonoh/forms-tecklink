@@ -10,8 +10,8 @@ const formContainer = document.querySelector(".form-container");
 const regUser = document.querySelector(".reg-user");
 const regCompany = document.querySelector(".reg-company");
 
-window.onresize = () => location.reload();
-formContainer.style.height = regUser.offsetHeight + "px";
+// window.onresize = () => location.reload();
+// formContainer.style.height = regUser.offsetHeight + "px";
 
 btnUser.addEventListener("click", () => {
   if (!regUser.classList.contains("is-active")) {

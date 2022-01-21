@@ -56,6 +56,7 @@ body {
 .form-container {
   position: relative;
   width: 660px;
+  height: 964px;
   overflow: hidden;
 }
 
@@ -103,7 +104,8 @@ body {
 
 [type="text"],
 [type="email"],
-[type="password"] {
+[type="password"],
+select {
   border: 2px solid rgba(38, 169, 225, 0.4);
   border-radius: 6px;
   width: 32rem;
@@ -113,9 +115,15 @@ body {
 
 [type="text"]:focus,
 [type="email"]:focus,
-[type="password"]:focus {
+[type="password"]:focus,
+select:focus {
   outline: none;
   border-color: #26a9e1;
+}
+
+select {
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .space {
@@ -151,6 +159,7 @@ body {
 @media (max-width: 680px) {
   .form-container {
     width: 100vw;
+    height: 1305px;
   }
 
   .form-heading {
